@@ -9,7 +9,7 @@ const subscriberSchema = new mongoose.Schema({
 		type: String,
 		required: true
 	},
-	subscibeDate: {
+	subscibedDate: {
 		type: Date,
 		required: true,
 		default: Date.now
